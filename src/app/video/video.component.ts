@@ -30,7 +30,6 @@ ngOnInit(): void {
   }
   
   console.log(getCookie("reloadtimes"));
-  deleteCookie("reloadtimes")
 
 
   if(reloadnumber >= 24) this.redirect();
